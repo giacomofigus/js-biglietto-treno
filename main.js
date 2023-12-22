@@ -20,5 +20,10 @@
 let kmUtente = prompt("Inserisci i kilometri che vuoi percorrere");
 let etàUtente = prompt("Inserici qua la tua età");
 
+let ticketPrice = kmUtente * 0.21;
+let fixedPrice = ticketPrice.toFixed(2);
+console.log(fixedPrice);
+
+
 
 
