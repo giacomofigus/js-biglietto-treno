@@ -24,6 +24,8 @@ let ticketPrice = kmUtente * 0.21;
 let fixedPrice = ticketPrice.toFixed(2);
 console.log(fixedPrice);
 
-
+let discount1 = (fixedPrice * 20)/100;
+let fixedDiscount = discount1.toFixed(2)
+console.log(fixedDiscount);
 
 
